@@ -1,0 +1,30 @@
+{
+    "playerOneName": {
+        "type": "String",
+        "required": [
+            true,
+            "Required playerOne Name"
+        ]
+    },
+    "playerOneScore": {
+        "type": "String",
+        "required": [
+            true,
+            "Required playerOne Score"
+        ]
+    },
+    "playerTwoName": {
+        "type": "String",
+        "required": [
+            true,
+            "Required playerTwo Name"
+        ]
+    },
+    "playerTwoScore": {
+        "type": "String",
+        "required": [
+            true,
+            "Required playerTwo Score"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "username": {
+        "type": "String",
+        "required": [
+            true,
+            "Required User Name"
+        ]
+    },
+    "email": {
+        "type": "String",
+        "required": [
+            true,
+            "Required Email"
+        ]
+    },
+    "password": {
+        "type": "String",
+        "required": [
+            true,
+            "Required Password"
+        ]
+    }
+}
