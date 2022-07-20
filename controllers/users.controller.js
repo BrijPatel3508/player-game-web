@@ -1,7 +1,5 @@
 const Schema = require('../models/mongooseConnection');
 const User = Schema.Users;
-// const jwt = require("jsonwebtoken");
-// const config = require("../configs/auth.config");
 
 exports.users = (req, res) => {
     User.find({})
